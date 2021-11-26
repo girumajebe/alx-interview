@@ -24,4 +24,3 @@ def pascal_triangle(n):
                 b.append(sum(a[-1][j:j+2]))
         a.append(b)
     return a
-
